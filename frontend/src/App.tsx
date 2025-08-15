@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./pages/home";
 import Create from "./pages/create";
 import Detail from "./pages/detail";
@@ -14,6 +14,7 @@ const App: FC = () => {
       <Route path="/" element={<Home />} />
       <Route path="/create" element={<Create />} />
       <Route path="/place/:id" element={<Detail />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
     </BrowserRouter>
   )

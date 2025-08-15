@@ -10,7 +10,7 @@ interface Props {
 
 const Card: FC<Props> = ({place}) => {
   return (
-    <Link to={`/place/${place.id}`} className="border border-zinc-300 shadow rounded-md transition-all p-4 gap-3 grid grid-cols-3 min-h-[300px] hover:shadow-md" >
+    <Link to={place.id ? `/place/${place.id}` : '#'} className="border border-zinc-300 shadow rounded-md transition-all p-4 gap-3 grid grid-cols-3 min-h-[300px] hover:shadow-md" >
     
     {/* resim */}
     <div>
