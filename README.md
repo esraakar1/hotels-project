@@ -152,9 +152,6 @@ interface Place {
 4. Push yapın (`git push origin feature/amazing-feature`)
 5. Pull Request oluşturun
 
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## 👨‍💻 Geliştirici
 
@@ -162,5 +159,5 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 
 ---
 
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
+⭐ 
 # hotels-project
